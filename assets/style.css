@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.visit {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+}
+.visit1 {
+  background: linear-gradient(
+    61deg,
+    rgba(253, 190, 152, 1) 23%,
+    rgba(255, 153, 179, 1) 80%
+  );
+}
+.visit2 {
+  background: linear-gradient(
+    61deg,
+    rgba(127, 193, 244, 1) 52%,
+    rgba(51, 151, 227, 1) 82%
+  );
+}
+.visit3 {
+  background: linear-gradient(
+    61deg,
+    rgba(121, 216, 208, 1) 52%,
+    rgba(7, 207, 184, 1) 99%
+  );
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+ul {
+  padding-top: 25px;
+  padding-left: 20px;
+}
+.sizetxt {
+  font-size: 40px;
+}
+svg {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+.circle1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  top: -50px;
+  right: -70px;
+}
+.circle2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  bottom: -80px;
+  right: -10px;}
